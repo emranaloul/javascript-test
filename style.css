@@ -1,0 +1,55 @@
+body{
+    width: 900px;
+    margin: auto;
+}
+
+#container{
+    margin: auto;
+    align-items: center;
+    padding: auto;
+}
+
+#card{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+    width: 600px;
+    border: black solid 1px ;
+    border-radius: 3rem;
+    padding: 2rem;
+}
+#card h2{
+    display: inline-block;
+}
+
+#avatar{
+    font-size: 100px;
+    background-color: aqua;
+    color: #fff;
+    border-radius: 20rem;
+}
+
+span{
+    background-color: rgb(160, 96, 212);
+    display: block;
+    margin: auto 0;
+    color: #fff;
+    border-radius:5px;
+    padding: 1px;
+}
+
+#btnsContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+button{
+    color: white;
+    background-color: navy;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+
+}
